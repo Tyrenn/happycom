@@ -1,0 +1,19 @@
+{
+	"name": "commy",
+	"version": "1.0.0",
+	"description": "Comment based API generator",
+	"main": "./dist/index.js",
+	"scripts": {
+		"test": "tsx ./test/index.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.11.19",
+		"tsx": "^4.7.1",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"highlight.js": "^11.9.0"
+	}
+}
