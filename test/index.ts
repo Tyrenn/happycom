@@ -1,11 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/triple-slash-reference
-import { HTMLFileWriter } from 'utils/htmlFileWriter.js';
+import { HTMLFileWriter } from '../src/utils/htmlFileWriter.js';
 import {TypeModelParser} from '../src/parser/typeModelParser.js'
-import { CommentRouterParser } from 'parser/commentRouteParser.js';
-import {HTMLRouterRenderer} from 'renderer/htmlRouteRenderer.js';
-import { Model } from 'utils/types.js';
-import { HTMLModelRenderer } from 'renderer/htmlModelRenderer.js';
-import { HTMLMenuRenderer } from 'renderer/htmlMenuRenderer.js';
+import { CommentRouterParser } from '../src/parser/commentRouteParser.js';
+import {HTMLRouterRenderer} from '../src/renderer/htmlRouteRenderer.js';
+import { Model } from '../src/utils/types.js';
+import { HTMLModelRenderer } from '../src/renderer/htmlModelRenderer.js';
+import { HTMLMenuRenderer } from '../src/renderer/htmlMenuRenderer.js';
 import {resolve} from 'node:path';
 
 async function start(){

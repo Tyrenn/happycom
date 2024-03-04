@@ -1,13 +1,26 @@
 {
-	"name": "commy",
+	"name": "happycom",
 	"version": "1.0.0",
-	"description": "Comment based API generator",
+	"description": "Comment based API documentation generator",
+	"keywords": [
+		"api",
+		"documentation",
+		"comment",
+		"generator"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Tyrenn/happycom"
+	},
 	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"prepublish": "tsc",
 	"scripts": {
+		"build" : "tsc",
 		"test": "tsx ./test/index.ts"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "Guillaume Vailland",
+	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^20.11.19",
 		"tsx": "^4.7.1",
