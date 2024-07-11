@@ -1,4 +1,4 @@
-import { HTMLPage, Model, Response, Route, Router, RouterRenderer } from "utils/types";
+import { HTMLPage, Model, Response, Route, Router, RouterRenderer } from "../utils/types.js";
 import hljs from 'highlight.js';
 
 

@@ -1,2 +1,2 @@
-export * from './commentRouteParser';
-export * from './typeModelParser';
+export * from './commentRouteParser.js';
+export * from './typeModelParser.js';

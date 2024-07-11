@@ -1,6 +1,6 @@
 import { stat } from 'node:fs/promises';
 import { FileParser } from '../utils/fileParser.js';
-import { Model, ModelGroup, ModelParser} from 'utils/types.js';
+import { Model, ModelGroup, ModelParser} from '../utils/types.js';
 import { resolve } from 'node:path';
 
 export interface TypescriptModelParserContext{

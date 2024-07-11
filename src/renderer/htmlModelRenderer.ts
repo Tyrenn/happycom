@@ -1,5 +1,5 @@
 import hljs from 'highlight.js'
-import { Model, ModelGroup, ModelRenderer } from 'utils/types';
+import { Model, ModelGroup, ModelRenderer } from '../utils/types';
 
 export class HTMLModelRenderer implements ModelRenderer{
 

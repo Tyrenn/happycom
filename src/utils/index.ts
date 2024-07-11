@@ -1,3 +1,3 @@
-export * from './fileParser';
-export * from './types';
-export * from './htmlFileWriter';
+export * from './fileParser.js';
+export * from './types.js';
+export * from './htmlFileWriter.js';

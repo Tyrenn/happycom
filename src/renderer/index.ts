@@ -1,3 +1,3 @@
-export * from "./htmlMenuRenderer";
-export * from "./htmlModelRenderer";
-export * from "./htmlRouteRenderer";
+export * from "./htmlMenuRenderer.js";
+export * from "./htmlModelRenderer.js";
+export * from "./htmlRouteRenderer.js";

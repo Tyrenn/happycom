@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/triple-slash-reference
 import { stat } from 'node:fs/promises';
 import { FileParser } from '../utils/fileParser.js';
-import { Router, RouterParser, Route, Response} from 'utils/types.js';
+import { Router, RouterParser, Route, Response} from '../utils/types.js';
 
 
 export interface CommentRouterParserContext{
