@@ -18,7 +18,7 @@ Renderers take Parsers generated object to build text, for now HTML text only. G
 
 > For a more complete example, check out the github repository test folder ! And leave a star ⭐
 
-## Comments form
+## Comments shape
 
 ```ts
 /**

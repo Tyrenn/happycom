@@ -19,7 +19,7 @@
 		"build" : "tsc",
 		"test": "tsx ./test/index.ts"
 	},
-	"author": "Guillaume Vailland",
+	"author": "Guillaume Vailland (Tyren)",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^20.11.19",
